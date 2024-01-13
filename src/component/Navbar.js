@@ -126,4 +126,8 @@ const LoginButton = styled.button`
 
 const CartIcon = styled.div`
   margin-left: 1.5rem;
+
+  &:hover {
+    cursor: pointer;
+  }
 `;
