@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <NavContainer isScrolled={isScrolled}>
       <NavHeader>
-        <NavLogo style={{ color: "black", textDecoration: "none" }}>
+        <NavLogo to="/" style={{ color: "black", textDecoration: "none" }}>
           Milestone
         </NavLogo>
         <NavLinkContainer>
@@ -27,7 +27,9 @@ const Navbar = () => {
           <StyledLink to="/products">Product</StyledLink>
           <StyledLink to="/community">Community</StyledLink>
           <StyledLink to="/question">Q&A</StyledLink>
-          <LoginButton isScrolled={isScrolled}>Login</LoginButton>
+          <Link to="/login">
+            <LoginButton isScrolled={isScrolled}>Login</LoginButton>
+          </Link>
           <CartIcon>
             <GiShoppingCart size={"2.6rem"} />
           </CartIcon>
