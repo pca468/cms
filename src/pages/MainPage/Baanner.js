@@ -118,3 +118,6 @@ const Text = styled.div`
     animation: ${fadeInRight} 1s ease-out 0.5s;
   }
 `;
+
+
+

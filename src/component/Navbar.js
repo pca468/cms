@@ -22,8 +22,8 @@ const Navbar = () => {
           Milestone
         </NavLogo>
         <NavLinkContainer>
-          <StyledLink to="/news">News</StyledLink>
           <StyledLink to="/about">About Us</StyledLink>
+          <StyledLink to="/news">News</StyledLink>
           <StyledLink to="/products">Product</StyledLink>
           <StyledLink to="/community">Community</StyledLink>
           <StyledLink to="/question">Q&A</StyledLink>
